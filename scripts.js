@@ -70,7 +70,7 @@ document.getElementById('participantForm').addEventListener('submit', function(e
     
     if (participant) {
         // 显示结果
-        resultDiv.textContent = `${name}，你被分到 ${participant.group} 组。你的比赛时间是 ${participant.time}。`;
+        resultDiv.textContent = `${name}，你被分到 ${participant.group}。你的比赛时间是 ${participant.time}。`;
     } else {
         // 显示未找到
         resultDiv.textContent = '未找到该参赛者。请检查名字和工号。';
